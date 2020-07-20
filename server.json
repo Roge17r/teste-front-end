@@ -2,27 +2,57 @@
   "drivers": [
     {
       "id": "123",
-      "title": "Nome do produto 01",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 50
+      "name": "Givanildo Costa",
+      "phone": 15999999999,
+      "birth": "1972-06-01",
+      "doc": 12365987456,
+      "doc_type": "B",
+      "CPF": 4011168763
     },
     {
       "id": "1234",
-      "title": "Nome do produto 02",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 60
+      "name": "David Lourenço",
+      "phone": 15999999999,
+      "birth": "1972-06-01",
+      "doc": 12365987456,
+      "doc_type": "B",
+      "CPF": 4011168763
     },
     {
       "id": "12345",
-      "title": "Nome do produto 03",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 70
+      "name": "Ronaldo Antonio",
+      "phone": 15999999999,
+      "birth": "1972-06-01",
+      "doc": 12365987456,
+      "doc_type": "B",
+      "CPF": 4011168763
     },
     {
       "id": "123456",
-      "title": "Nome do produto 04",
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/camiseta-ecommerce.jpg",
-      "price": 80
+      "name": "Carlos Farias",
+      "phone": 15999999999,
+      "birth": "1972-06-01",
+      "doc": 12365987456,
+      "doc_type": "B",
+      "CPF": 4011168763
+    },
+    {
+      "name": "Roge Cristo",
+      "phone": "12345678",
+      "birth": "02101991",
+      "doc": "12654789",
+      "doc_type": "AD",
+      "CPF": "40111493811",
+      "id": "KBZ_avQ"
+    },
+    {
+      "name": "Pedro",
+      "phone": "15 99158 6987",
+      "birth": "02/10/1991",
+      "doc": "195879638147",
+      "doc_type": "AD",
+      "CPF": "463.987.812",
+      "id": "loRbD6N"
     }
   ]
 }

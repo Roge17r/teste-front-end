@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { shade } from 'polished'
+import { shade } from 'polished';
 
-import background from '../../assets/background-new.jpg';
+import background from '../../assets/background.jpg';
 
 export const Container = styled.div`
   height: 100vh;
@@ -10,7 +10,6 @@ export const Container = styled.div`
   /* filter: grayscale(0.7); */
   display: flex;
   align-items: stretch;
-
 `;
 
 export const Content = styled.div`
@@ -22,22 +21,22 @@ export const Content = styled.div`
   place-content: center;
 
   width: 100%;
-  max-width:700px;
+  max-width: 700px;
 
-  form{
+  form {
     margin: 80px 0;
     width: 540px;
     text-align: center;
 
-    h1{
+    h1 {
       margin-bottom: 24px;
       color: #232129;
     }
 
-    div{
+    div {
       display: flex;
 
-      select{
+      select {
         flex: 1;
         background: #232129;
         border-radius: 10px;
@@ -45,13 +44,10 @@ export const Content = styled.div`
         padding: 16px;
         color: #666360;
 
-       option{
+        option {
           font-size: 16px;
         }
       }
-
     }
-
-
   }
 `;

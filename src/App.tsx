@@ -1,15 +1,16 @@
-import React from 'react'
-import GlobalStyle from './styles/global'
+import React from 'react';
+import GlobalStyle from './styles/global';
 
 import Register from './pages/Register';
+import Drivers from './pages/Drivers';
 
-const App: React.FC =() => {
+const App: React.FC = () => {
   return (
     <>
-    <Register />
-    <GlobalStyle />
+      <Drivers />
+      <GlobalStyle />
     </>
-  )
-}
+  );
+};
 
 export default App;
