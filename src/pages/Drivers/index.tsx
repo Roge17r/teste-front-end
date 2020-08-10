@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { FiEdit } from 'react-icons/fi';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 import { Container, Content } from './styles';
 
 // type InputProps = InputHTMLAttributes<HTMLInputElement>;
@@ -27,7 +28,9 @@ const Register: React.FC = () => {
       <Content>
         {drivers.map(driver => (
           <div key={driver.id}>
-            <FiEdit size={24} />
+            <Link to="/update">
+              <FiEdit size={24} />
+            </Link>
 
             <p>Motorista</p>
             <h3>{driver.name}</h3>

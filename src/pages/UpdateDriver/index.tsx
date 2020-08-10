@@ -29,6 +29,12 @@ interface Driver {
 }
 
 const Register: React.FC = () => {
+  const [user, setUser] = useState<Driver[]>([]);
+
+  useEffect(() => {
+    axios.get('http://localhost:3333/drivers');
+  }, []);
+
   const formRef = useRef<FormHandles>(null);
   const handleSubmit = useCallback(async (data: object) => {
     try {
@@ -60,8 +66,8 @@ const Register: React.FC = () => {
   return (
     <Container>
       <Content>
-        <Form ref={formRef} onSubmit={handleSubmit}>
-          <h1>Faça seu cadastro</h1>
+        <Form initialData={() => {}} ref={formRef} onSubmit={handleSubmit}>
+          <h1>Atualize cadastro</h1>
 
           <Input name="name" icon={FiUser} placeholder="Digite seu nome" />
           <Input name="phone" icon={FiPhone} placeholder="Telefone" />
@@ -85,10 +91,6 @@ const Register: React.FC = () => {
           <Button type="submit">Cadastrar</Button>
         </Form>
       </Content>
-      <Link to="/drivers">
-        <FiArrowRight />
-        Motoristas
-      </Link>
     </Container>
   );
 };
